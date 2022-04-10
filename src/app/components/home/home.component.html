@@ -1,0 +1,60 @@
+<app-sidenav></app-sidenav>
+
+<div class="container timesheet">
+  <div class="row">
+    <h4>Time Sheet</h4>
+    <div class="col-md-6 mb-4 mt-4">
+      <label>Full Name</label>
+      <input
+        type="text"
+        formControlName="consignName"
+        pInputText
+        class="h-2rem"
+      />
+    </div>
+    <div class="col-md-6">
+      <label>Date</label>
+      <p-calendar [showIcon]="true" inputId="icon"></p-calendar>
+    </div>
+  </div>
+
+  <div class="row desc">
+    <div class="col-md-6">
+      <label>Work Description</label>
+
+      <textarea
+        rows="5"
+        cols="39"
+        pInputTextarea
+        class="outline-none"
+      ></textarea>
+    </div>
+    <div class="col-md-6"></div>
+  </div>
+
+  <div class="row mb-5">
+    <div class="col-md-6">
+      <label>Time in</label>
+      <input type="text" pInputText class="h-2rem mb-5" />
+    </div>
+
+    <div class="col-md-6">
+      <label>Time Out</label>
+      <input type="text" pInputText class="h-2rem mb-5" />
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-md-5"></div>
+    <div class="col-md-3 text-center">
+      <button
+        pButton
+        pRipple
+        type="button"
+        label="Submit"
+        class="p-button-rounded p-button-success"
+      ></button>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+</div>

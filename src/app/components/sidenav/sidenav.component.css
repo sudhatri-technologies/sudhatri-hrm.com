@@ -1,0 +1,18 @@
+.arrow {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+ul li {
+  margin-bottom: 40px;
+}
+ul li i {
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  color: #000;
+}
+.active {
+  color: green !important;
+}

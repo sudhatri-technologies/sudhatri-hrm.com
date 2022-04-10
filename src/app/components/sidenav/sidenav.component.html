@@ -1,0 +1,50 @@
+<p-sidebar
+  [(visible)]="visibleSidebar1"
+  [style]="{ width: '15em' }"
+  [baseZIndex]="10000"
+>
+  <ul type="none">
+    <li>
+      <img src="assets/images/logo.png" class="img-fluid" />
+    </li>
+    <li routerLink="/home">
+      <i class="pi pi-home" routerLinkActive="active"
+        ><span class="ml-3">Home</span></i
+      >
+    </li>
+    <li>
+      <i class="pi pi-list" routerLinkActive="active"
+        ><span class="ml-3">Time Sheet</span></i
+      >
+    </li>
+    <li routerLink="/bio-data">
+      <i class="pi pi-user" routerLinkActive="active"
+        ><span class="ml-3">Bio-Data</span></i
+      >
+    </li>
+    <li>
+      <i class="pi pi-phone" routerLinkActive="active"
+        ><span class="ml-3">Contact</span></i
+      >
+    </li>
+    <li routerLink="/login">
+      <i class="pi pi-power-off" routerLinkActive="active"
+        ><span class="ml-3">Logout</span></i
+      >
+    </li>
+  </ul>
+</p-sidebar>
+
+<!-- <p-button
+  type="button"
+  (click)="visibleSidebar1 = true"
+  icon="pi pi-align-center"
+></p-button> -->
+<div class="arrow">
+  <i
+    class="pi pi-align-center"
+    (click)="visibleSidebar1 = true"
+    style="font-size: 2rem"
+    ><span class="ml-2">Menu</span></i
+  >
+</div>
