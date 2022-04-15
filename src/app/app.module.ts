@@ -16,6 +16,10 @@ import { CalendarModule } from 'primeng/calendar';
 import { InputTextareaModule } from 'primeng/inputtextarea';
 import { BioDataComponent } from './components/bio-data/bio-data.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { EditorModule } from 'primeng/editor';
+import { ApplyleaveComponent } from './components/applyleave/applyleave.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { AddemployeeComponent } from './components/addemployee/addemployee.component';
 
 const allImports = [
   ButtonModule,
@@ -23,6 +27,7 @@ const allImports = [
   SidebarModule,
   CalendarModule,
   InputTextareaModule,
+  EditorModule,
 ];
 
 @NgModule({
@@ -34,6 +39,9 @@ const allImports = [
     LoginComponent,
     BioDataComponent,
     SidenavComponent,
+    ApplyleaveComponent,
+    DashboardComponent,
+    AddemployeeComponent,
   ],
   imports: [
     BrowserModule,
