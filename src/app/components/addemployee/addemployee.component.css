@@ -14,6 +14,17 @@ label {
   width: 60%;
 }
 
+:host ::ng-deep .p-dropdown {
+  width: 60%;
+  height: 2.5rem;
+}
+:host ::ng-deep .p-inputnumber {
+  display: contents;
+}
+p-inputnumber {
+  width: 60%;
+  height: 2.5rem;
+}
 h4 {
   margin-top: 10px;
   margin-bottom: 50px;

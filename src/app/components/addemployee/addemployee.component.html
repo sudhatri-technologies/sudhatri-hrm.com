@@ -4,65 +4,225 @@
     <h4>
       <i class="pi pi-plus" style="font-size: 1.5rem"> New Employee </i>
     </h4>
+
+    <h4 style="font-size: 1.5rem">Personal Details</h4>
     <div class="col-md-6 mb-4 mt-4">
-      <label>First Name</label>
+      <label>Full Name</label>
       <input type="text" pInputText class="h-2rem" />
     </div>
-    <div class="col-md-6">
-      <label>Last Name</label>
+    <div class="col-md-6 mb-4 mt-4">
+      <label>Father Name</label>
       <input type="text" pInputText class="h-2rem" />
     </div>
   </div>
 
   <div class="row">
     <div class="col-md-6 mb-4 mt-4">
-      <label>Mobile Number</label>
-      <input type="text" pInputText class="h-2rem" />
+      <label>Date of Birth</label>
+      <p-calendar [showIcon]="true" inputId="icon"></p-calendar>
     </div>
 
-    <div class="col-md-6 mb-4 mt-4">
-      <label>Email</label>
-      <input type="text" pInputText class="h-2rem" />
-    </div>
-  </div>
-
-  <div class="row">
     <div class="col-md-6 mb-4 mt-4">
       <label>Gender</label>
-      <input type="text" pInputText class="h-2rem" />
+      <p-dropdown
+        [options]="cities"
+        placeholder="Select "
+        optionLabel="name"
+      ></p-dropdown>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 mb-4 mt-4">
+      <label>Phone 1</label>
+      <p-inputNumber [useGrouping]="false"></p-inputNumber>
     </div>
 
     <div class="col-md-6 mb-4 mt-4">
-      <label>Department</label>
-      <input type="text" pInputText class="h-2rem" />
+      <label>Phone 2</label>
+      <p-inputNumber [useGrouping]="false"></p-inputNumber>
     </div>
   </div>
   <div class="row">
     <div class="col-md-6 mt-5 mb-5">
+      <label>Local Address</label>
+      <textarea
+        rows="3"
+        cols="31"
+        pInputTextarea
+        class="outline-none"
+      ></textarea>
+    </div>
+    <div class="col-md-6 mt-5 mb-5">
+      <label>Permanent Address</label>
+      <textarea
+        rows="3"
+        cols="31"
+        pInputTextarea
+        class="outline-none"
+      ></textarea>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 mb-4 mt-4">
+      <label>Nationality</label>
+      <input type="text" pInputText class="h-2rem" />
+    </div>
+
+    <div class="col-md-6 mb-4 mt-4">
+      <label>Marital Status</label>
+      <p-dropdown
+        [options]="cities"
+        placeholder="Select "
+        optionLabel="name"
+      ></p-dropdown>
+    </div>
+  </div>
+
+  <div class="row mt-3 mb-4">
+    <div class="col-md-5 mb-4 mt-4"></div>
+    <div class="col-md-2 mb-5 mt-5 text-center">
+      <p-fileUpload mode="basic" chooseLabel="Upload Photo"></p-fileUpload>
+    </div>
+
+    <div class="col-md-5 mb-4 mt-4"></div>
+  </div>
+
+  <div class="row">
+    <h4>Company Details</h4>
+    <div class="col-md-6 mb-4 mt-4">
+      <label>Employee ID</label>
+      <input type="text" pInputText class="h-2rem" />
+    </div>
+    <div class="col-md-6 mb-4 mt-4">
+      <label>Department</label>
+      <p-dropdown
+        [options]="cities"
+        placeholder="Select "
+        optionLabel="name"
+      ></p-dropdown>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 mb-4 mt-4">
+      <label>Designation</label>
+      <p-dropdown
+        [options]="cities"
+        placeholder="Select "
+        optionLabel="name"
+      ></p-dropdown>
+    </div>
+
+    <div class="col-md-6 mb-4 mt-4">
+      <label>Date of Joining</label>
+      <p-calendar [showIcon]="true" inputId="icon"></p-calendar>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 mb-4 mt-4">
+      <label>Manager</label>
+      <p-dropdown
+        [options]="cities"
+        placeholder="Select "
+        optionLabel="name"
+      ></p-dropdown>
+    </div>
+
+    <div class="col-md-6 mb-4 mt-4">
+      <label>Team Lead</label>
+      <p-dropdown
+        [options]="cities"
+        placeholder="Select "
+        optionLabel="name"
+      ></p-dropdown>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 mb-4 mt-4">
+      <label>Shift</label>
+      <p-dropdown
+        [options]="cities"
+        placeholder="Select "
+        optionLabel="name"
+      ></p-dropdown>
+    </div>
+
+    <div class="col-md-6 mb-4 mt-4">
+      <label>Status</label>
+      <p-dropdown
+        [options]="cities"
+        placeholder="Select "
+        optionLabel="name"
+      ></p-dropdown>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <h4>Bank Account Details</h4>
+    <div class="col-md-6 mb-4 mt-4">
+      <label>Account Holder Name</label>
+      <input type="text" pInputText class="h-2rem" />
+    </div>
+    <div class="col-md-6 mb-4 mt-4">
+      <label>Account Number</label>
+      <input type="text" pInputText class="h-2rem" />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 mb-4 mt-4">
       <label>Bank Name</label>
       <input type="text" pInputText class="h-2rem" />
     </div>
-    <div class="col-md-6 mt-5 mb-5">
-      <label>A/C Number</label>
+    <div class="col-md-6 mb-4 mt-4">
+      <label>Branch</label>
       <input type="text" pInputText class="h-2rem" />
     </div>
   </div>
 
   <div class="row">
     <div class="col-md-6 mb-4 mt-4">
-      <label>Present Project Name</label>
+      <label>IFSC Code</label>
       <input type="text" pInputText class="h-2rem" />
     </div>
+    <div class="col-md-6 mb-4 mt-4"></div>
+  </div>
 
-    <div class="col-md-6 mb-4 mt-4">
-      <label>Role</label>
-      <input type="text" pInputText class="h-2rem" />
+  <div class="row mt-5">
+    <h4>Documents</h4>
+    <div class="col-md-4 mb-4 mt-4 text-center">
+      <p-fileUpload mode="basic" chooseLabel="Resume File"></p-fileUpload>
+    </div>
+    <div class="col-md-4 mb-4 mt-4 text-center">
+      <p-fileUpload mode="basic" chooseLabel="Offer Letter"></p-fileUpload>
+    </div>
+    <div class="col-md-4 mb-4 mt-4 text-center">
+      <p-fileUpload mode="basic" chooseLabel="Joining Letter"></p-fileUpload>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 mb-4 mt-4 text-center">
+      <p-fileUpload mode="basic" chooseLabel="Aadhar Card"></p-fileUpload>
+    </div>
+    <div class="col-md-4 mb-4 mt-4 text-center">
+      <p-fileUpload mode="basic" chooseLabel="PAN Card "></p-fileUpload>
+    </div>
+    <div class="col-md-4 mb-4 mt-4 text-center">
+      <p-fileUpload
+        mode="basic"
+        chooseLabel="Contract & Agreement Letter"
+      ></p-fileUpload>
     </div>
   </div>
 
   <div class="row mt-5">
     <div class="col-md-5"></div>
-    <div class="col-md-3 text-center">
+    <div class="col-md-2 text-center">
       <button
         pButton
         pRipple
@@ -71,6 +231,6 @@
         class="p-button p-button-success"
       ></button>
     </div>
-    <div class="col-md-4"></div>
+    <div class="col-md-5"></div>
   </div>
 </div>

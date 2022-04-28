@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,12 +15,20 @@ import { InputTextModule } from 'primeng/inputtext';
 import { SidebarModule } from 'primeng/sidebar';
 import { CalendarModule } from 'primeng/calendar';
 import { InputTextareaModule } from 'primeng/inputtextarea';
+import { EditorModule } from 'primeng/editor';
+import { DropdownModule } from 'primeng/dropdown';
+import { InputNumberModule } from 'primeng/inputnumber';
+import { FileUploadModule } from 'primeng/fileupload';
+
+import { TableModule } from 'primeng/table';
 import { BioDataComponent } from './components/bio-data/bio-data.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
-import { EditorModule } from 'primeng/editor';
 import { ApplyleaveComponent } from './components/applyleave/applyleave.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { AddemployeeComponent } from './components/addemployee/addemployee.component';
+import { ManageEmployeeComponent } from './components/manage-employee/manage-employee.component';
+import { ManageLeaveComponent } from './components/manage-leave/manage-leave.component';
+import { AttendanceComponent } from './components/attendance/attendance.component';
 
 const allImports = [
   ButtonModule,
@@ -28,6 +37,10 @@ const allImports = [
   CalendarModule,
   InputTextareaModule,
   EditorModule,
+  TableModule,
+  DropdownModule,
+  InputNumberModule,
+  FileUploadModule,
 ];
 
 @NgModule({
@@ -42,11 +55,15 @@ const allImports = [
     ApplyleaveComponent,
     DashboardComponent,
     AddemployeeComponent,
+    ManageEmployeeComponent,
+    ManageLeaveComponent,
+    AttendanceComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     allImports,
   ],
   providers: [],
