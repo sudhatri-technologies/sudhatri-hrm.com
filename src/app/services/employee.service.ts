@@ -9,7 +9,7 @@ export class EmployeeService {
 
   getProducts() {
     return this.http
-      .get<any>('/assets/data/employee.json')
+      .get<any>('assets/data/employee.json')
       .toPromise()
       .then((res) => <Employee[]>res.data)
       .then((data) => {
