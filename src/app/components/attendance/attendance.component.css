@@ -23,9 +23,7 @@ h4 {
   border-radius: 6px;
   box-shadow: none;
 }
-:host ::ng-deep .pi {
-  display: none;
-}
+
 :host ::ng-deep .p-link {
   cursor: none;
 }
