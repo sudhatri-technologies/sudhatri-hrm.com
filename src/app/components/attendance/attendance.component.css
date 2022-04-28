@@ -23,3 +23,13 @@ h4 {
   border-radius: 6px;
   box-shadow: none;
 }
+:host ::ng-deep .pi {
+  display: none;
+}
+:host ::ng-deep .p-link {
+  cursor: none;
+}
+:host ::ng-deep .p-datepicker .p-timepicker button {
+  height: 0px;
+  width: 0px;
+}
