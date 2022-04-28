@@ -13,8 +13,8 @@ export class AddemployeeComponent implements OnInit {
   cities: City[];
   constructor() {
     this.cities = [
-      { name: 'Male', code: 'M' },
-      { name: 'Female', code: 'FM' },
+      { name: '111', code: 'M' },
+      { name: '222', code: 'FM' },
     ];
   }
 
