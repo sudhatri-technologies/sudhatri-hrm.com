@@ -29,6 +29,11 @@ import { AddemployeeComponent } from './components/addemployee/addemployee.compo
 import { ManageEmployeeComponent } from './components/manage-employee/manage-employee.component';
 import { ManageLeaveComponent } from './components/manage-leave/manage-leave.component';
 import { AttendanceComponent } from './components/attendance/attendance.component';
+import { DepartmentsComponent } from './components/departments/departments.component';
+import { EmployeesComponent } from './components/employees/employees.component';
+import { PresentEmployeesComponent } from './components/present-employees/present-employees.component';
+import { AbsentEmployeesComponent } from './components/absent-employees/absent-employees.component';
+import { CardDashboardComponent } from './components/card-dashboard/card-dashboard.component';
 
 const allImports = [
   ButtonModule,
@@ -58,6 +63,11 @@ const allImports = [
     ManageEmployeeComponent,
     ManageLeaveComponent,
     AttendanceComponent,
+    DepartmentsComponent,
+    EmployeesComponent,
+    PresentEmployeesComponent,
+    AbsentEmployeesComponent,
+    CardDashboardComponent,
   ],
   imports: [
     BrowserModule,

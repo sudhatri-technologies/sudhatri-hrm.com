@@ -1,0 +1,33 @@
+.card {
+  box-shadow: 0 0 16px #ccc;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.card ul li {
+  text-align: center;
+}
+.pi {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.pi-home {
+  color: green;
+}
+.pi-users {
+  color: #da0f5e;
+}
+.pi-user-plus {
+  color: blue;
+}
+.pi-user-minus {
+  color: crimson;
+}
+.card-body ul li {
+  font-size: 20px;
+  position: relative;
+  top: -35px;
+  text-align: right;
+  right: 20px;
+  font-weight: 700;
+}
