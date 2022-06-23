@@ -13,6 +13,9 @@ import { LoginComponent } from './components/login/login.component';
 import { ManageEmployeeComponent } from './components/manage-employee/manage-employee.component';
 import { ManageLeaveComponent } from './components/manage-leave/manage-leave.component';
 import { PresentEmployeesComponent } from './components/present-employees/present-employees.component';
+import { EmpSidenavComponent } from './emp-components/emp-sidenav/emp-sidenav.component';
+import { InTimeFormComponent } from './emp-components/in-time-form/in-time-form.component';
+import { OutTimeFormComponent } from './emp-components/out-time-form/out-time-form.component';
 
 const routes: Routes = [
   {
@@ -67,6 +70,18 @@ const routes: Routes = [
   {
     path: 'absent-employees',
     component: AbsentEmployeesComponent,
+  },
+  {
+    path: 'emp-sidenav',
+    component: EmpSidenavComponent,
+  },
+  {
+    path: 'in-time-form',
+    component: InTimeFormComponent,
+  },
+  {
+    path: 'out-time-form',
+    component: OutTimeFormComponent,
   },
 ];
 

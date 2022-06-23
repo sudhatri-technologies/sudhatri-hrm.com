@@ -14,5 +14,6 @@ export class ManageEmployeeComponent implements OnInit {
 
   ngOnInit() {
     this.es.getProducts().then((data) => (this.employees = data));
+    console.log(this.employees);
   }
 }

@@ -1,0 +1,55 @@
+<p-sidebar
+  [(visible)]="visibleSidebar1"
+  [style]="{ width: '15em' }"
+  [baseZIndex]="10000"
+>
+  <div class="row" style="border-bottom: 1px solid rgb(224, 224, 224)">
+    <div class="col-md-12">
+      <div class="bio">
+        <ul type="none">
+          <li>
+            <img src="assets/images/bg.png" />
+          </li>
+          <li>Employee</li>
+          <li>emphaasa1@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav">
+    <ul type="none">
+      <li routerLink="/in-time-form">
+        <i class="pi pi-star-fill" routerLinkActive="active"
+          ><span class="ml-2">In-Time Form</span></i
+        >
+      </li>
+
+      <li routerLink="/out-time-form">
+        <i class="pi pi-star-fill" routerLinkActive="active"
+          ><span class="ml-2">Out-Time Form</span></i
+        >
+      </li>
+
+      <li routerLink="/login">
+        <i class="pi pi-sign-out" routerLinkActive="active"
+          ><span class="ml-2">Logout</span></i
+        >
+      </li>
+    </ul>
+  </div>
+</p-sidebar>
+
+<!-- <p-button
+  type="button"
+  (click)="visibleSidebar1 = true"
+  icon="pi pi-align-center"
+></p-button> -->
+<div class="arrow">
+  <i
+    class="pi pi-align-center"
+    (click)="visibleSidebar1 = true"
+    style="font-size: 2rem"
+    ><span class="ml-2">Menu</span></i
+  >
+</div>

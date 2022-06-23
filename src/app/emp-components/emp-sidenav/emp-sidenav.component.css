@@ -1,0 +1,31 @@
+.arrow {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.active {
+  color: green !important;
+  font-weight: 700;
+}
+img {
+  border-radius: 50%;
+  width: 100px;
+}
+.bio ul li {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.nav {
+  margin-top: 30px;
+}
+.nav ul li {
+  margin-bottom: 20px;
+}
+.nav ul li i {
+  font-size: 15px;
+  cursor: pointer;
+  color: #000;
+}

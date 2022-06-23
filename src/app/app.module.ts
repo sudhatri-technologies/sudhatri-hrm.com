@@ -34,6 +34,9 @@ import { EmployeesComponent } from './components/employees/employees.component';
 import { PresentEmployeesComponent } from './components/present-employees/present-employees.component';
 import { AbsentEmployeesComponent } from './components/absent-employees/absent-employees.component';
 import { CardDashboardComponent } from './components/card-dashboard/card-dashboard.component';
+import { EmpSidenavComponent } from './emp-components/emp-sidenav/emp-sidenav.component';
+import { InTimeFormComponent } from './emp-components/in-time-form/in-time-form.component';
+import { OutTimeFormComponent } from './emp-components/out-time-form/out-time-form.component';
 
 const allImports = [
   ButtonModule,
@@ -68,6 +71,9 @@ const allImports = [
     PresentEmployeesComponent,
     AbsentEmployeesComponent,
     CardDashboardComponent,
+    EmpSidenavComponent,
+    InTimeFormComponent,
+    OutTimeFormComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,47 @@
+.timesheet {
+  margin-top: 40px;
+}
+:host ::ng-deep .p-calendar {
+  width: 60%;
+  height: 2.5rem;
+}
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+}
+:host ::ng-deep .p-inputtext {
+  width: 60%;
+}
+.desc {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+h4 {
+  margin-bottom: 50px;
+  color: #da0f5e;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* :host ::ng-deep .p-dropdown-panel {
+    background: none;
+    color: #495057;
+    border: 0 none;
+    border-radius: 6px;
+    box-shadow: none;
+  } */
+
+:host ::ng-deep .p-datepicker .p-timepicker button {
+  height: 0px;
+  width: 0px;
+}
+
+:host ::ng-deep .pi-chevron-left {
+  display: none;
+}
+
+:host ::ng-deep .pi-chevron-right {
+  display: none;
+}
