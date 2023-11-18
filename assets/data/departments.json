@@ -1,0 +1,12 @@
+{
+  "data": [
+    { "id": 1, "name": "Staffing", "totalemp": 25 },
+    { "id": 2, "name": "Digital Marketing", "totalemp": 5 },
+    { "id": 3, "name": "Web Development", "totalemp": 8 },
+    { "id": 4, "name": "3D Design", "totalemp": 2 },
+    { "id": 5, "name": "Mobile Development", "totalemp": 1 },
+    { "id": 6, "name": "Backend Developers", "totalemp": 1 },
+    { "id": 7, "name": "Full Stack Developers ", "totalemp": 1 },
+    { "id": 8, "name": "Office Maintenance", "totalemp": 4 }
+  ]
+}

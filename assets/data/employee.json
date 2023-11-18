@@ -1,0 +1,112 @@
+{
+  "data": [
+    {
+      "id": "01",
+      "name": "Kodam Harish",
+      "email": "12345@gmail.com",
+      "department": "Web Development",
+      "designation": "Web Developer",
+      "shift": "Day ",
+      "status": "Present"
+    },
+    {
+      "id": "02",
+      "name": "Raj Kumar",
+      "email": "1234566@gmail.com",
+      "department": "Web Development",
+      "designation": "Web Developer",
+      "shift": "Night",
+      "status": "Present"
+    },
+    {
+      "id": "03",
+      "name": "Deepak ",
+      "email": "deepak@gmail.com",
+      "department": "Web Development",
+      "designation": "Admin",
+      "shift": "Day",
+      "status": "Present"
+    },
+    {
+      "id": "04",
+      "name": "Chandu ",
+      "email": "chandu@gmail.com",
+      "department": "python Development",
+      "designation": "Python Developer",
+      "shift": "Night ",
+      "status": "Absent"
+    },
+    {
+      "id": "05",
+      "name": "Prem Raj",
+      "email": "prem@gmail.com",
+      "department": "Digiatl Marketing",
+      "designation": "Trainee",
+      "shift": "Day",
+      "status": "Absent"
+    },
+    {
+      "id": "06",
+      "name": "Pavan",
+      "email": "pavan@gmail.com",
+      "department": "Web Devleoper",
+      "designation": "Team Lead",
+      "shift": "Day ",
+      "status": "Present"
+    },
+    {
+      "id": "07",
+      "name": "Shiva",
+      "email": "shiva@gmail.com",
+      "department": "Staffing",
+      "designation": "Team Lead",
+      "shift": "Night ",
+      "status": "Present"
+    },
+    {
+      "id": "08",
+      "name": "Nazeem",
+      "email": "Nazeem@gmail.com",
+      "department": "Civil",
+      "designation": "Interior Designer",
+      "shift": "Day ",
+      "status": "Absent"
+    },
+    {
+      "id": "09",
+      "name": "Tharun",
+      "email": "Tharun@gmail.com",
+      "department": "DM",
+      "designation": "Trainee",
+      "shift": "Day ",
+      "status": "Absent"
+    },
+    {
+      "id": "10",
+      "name": "Tharun",
+      "email": "Tharun@gmail.com",
+      "department": "DM",
+      "designation": "Trainee",
+      "shift": "Day ",
+      "status": "Present"
+    },
+    {
+      "id": "11",
+      "name": "Tharun",
+      "email": "Tharun@gmail.com",
+      "department": "DM",
+      "designation": "Trainee",
+      "shift": "Day ",
+      "status": "Present"
+    },
+    {
+      "id": "12",
+      "name": "Tharun",
+      "email": "Tharun@gmail.com",
+      "department": "DM",
+      "designation": "Trainee",
+      "shift": "Day ",
+      "status": "Absent"
+    }
+  ]
+}
